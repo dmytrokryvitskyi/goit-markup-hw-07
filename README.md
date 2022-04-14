@@ -1,3 +1,3 @@
-# goit-markup-hw-06
+# goit-markup-hw-07
 
-My 6th home work (Module #1)
+My 7th home work (Module #1)
