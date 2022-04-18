@@ -1,13 +1,16 @@
-:root {
+/* :root {
   --main-black: #212121;
   --highlight-color: #2196f3;
   --white-color: #ffffff;
   --main-text-color: #757575;
+  --additional-background-color: #F5F4FA;
+  --border-background-color:#AFB1B8;
   --transition-origin: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}  */
 
 /*Загальна стилізація сторінки*/
-body {
+
+/* body {
   background-color: var(--white-color);
   color: var(--main-text-color);
   font-family: Roboto, sans-serif;
@@ -26,13 +29,13 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} 
 
 .list {
   list-style: none;
   padding: 0px;
   margin: 0px;
-}
+} */
 
 .non-visiable {
   position: absolute;
@@ -288,7 +291,7 @@ margin-right: 30px;
   align-items: center;
   margin-bottom: 30px;
   height: 120px;
-  background-color:#F5F4FA;
+  background-color:var(--additional-background-color);
   border-radius: 4px;
 }
 
@@ -366,7 +369,7 @@ margin-right: 30px;
 /*Стилізвція Секції Наша команда*/
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--additional-background-color);
 }
 
 .team__title {
@@ -459,7 +462,7 @@ margin-right: 10px;
 }
 
 .socials__icon{
-  fill: #AFB1B8;
+  fill: var(--border-background-color);
 
   transition: fill var(--transition-origin);
 }
@@ -507,7 +510,7 @@ margin-right: 10px;
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid var(--border-background-color);
   border-radius: 4px;
 
   transition: border-color var(--transition-origin);
@@ -520,7 +523,7 @@ margin-right: 10px;
 }
 
 .clients__icon{
-  fill: #AFB1B8;
+  fill: var(--border-background-color);
 
   transition: fill var(--transition-origin);
 }
@@ -764,7 +767,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 6px 22px;
   min-height: 38px;
 
-  background-color: #f5f4fa;
+  background-color: var(--additional-background-color);
   color: var(--main-black);
   font-weight: 500;
   font-size: 16px;
@@ -958,7 +961,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-black);
 }
 
 .modal-block{
@@ -977,7 +980,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .modal-input{
@@ -1068,7 +1071,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 
   cursor: pointer;
 }
@@ -1083,7 +1086,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .checkbox-border{
   display: inline-block;
   position: relative;
-  border: 2px solid #212121;
+  border: 2px solid var(--main-black);
   border-radius: 4px;
   margin-top: 4px;
   margin-bottom: 4px;
