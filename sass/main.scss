@@ -35,6 +35,26 @@
 @import "./components/team/socials";
 
 // CLIENTS
+@import "./components/clients/clients";
+
+// FOOTER
+@import "./components/footer/footer-general";
+@import "./components/footer/footer-logo";
+@import "./components/footer/footer-contacts";
+@import "./components/footer/footer-join";
+@import "./components/footer/footer-subscribe";
+
+// Portfolio
+@import "./components/portfolio/portfolio-general";
+@import './components/portfolio/portfolio-buttons';
+@import "./components/portfolio/portfolio-cards";
+@import "./components/portfolio/portfolio-overlay";
+@import "./components/portfolio/portfolio-borders";
+
+// MODAL WINDOW
+@import "./components/modal-window/backdrop";
+@import "./components/modal-window/window";
+@import "./components/modal-window/close-button";
 
 
 
