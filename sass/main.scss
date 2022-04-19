@@ -1,13 +1,12 @@
-
 // VARIABLES
-@import "./variables/variables";
+@import "./utils/vars";
 
-// УТИЛІТИ
+// Non-Visiable
 @import "./utils/non-visiable";
 
-// БАЗОВІ СТИЛІ СТОРІНКИ
-@import "./base/base";
+// ЗАГАЛЬНА СТИЛІЗАЦІЯ СТОРІНКИ
+@import "./components/base/base";
 
-// КОМПОНЕНТИ
-
+// КОМПОНЕНТА
+@import "./components/components";
 

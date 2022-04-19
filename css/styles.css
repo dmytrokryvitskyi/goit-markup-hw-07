@@ -56,6 +56,25 @@ img {
   margin-right: auto;
 } */
 
+
+/* BUTTON GENERAL STYLE */
+
+/* .btn {
+  background-color: var(--highlight-color);
+  color: var(--white-color);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  border: transparent;
+  cursor: pointer;
+} */
+
 /*Стилізвція ХЕДЕРА*/
 
 .header {
@@ -226,20 +245,15 @@ img {
 
 .hero__button {
   display: inline-block;
-  background-color: var(--highlight-color);
-  color: var(--white-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
   text-align: center;
+
   border: 1px solid transparent;
   border-radius: 6px;
-  cursor: pointer;
+  
   padding: 10px 32px;
   min-width: 200px;
   min-height: 50px;
-
+  
   transition: background-color var(--transition-origin), color var(--transition-origin);
 }
 
@@ -722,20 +736,10 @@ margin-right: 10px;
   padding: 10px 32px;
   min-width: 200px;
   min-height: 50px;
+
   border: 1px solid transparent;
   border-radius: 6px;
-
-  background-color: var(--highlight-color);
-  color: var(--white-color);
-  
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-    
-  cursor: pointer;
-  
+      
   transition: box-shadow var(--transition-origin);
 }
 
@@ -787,6 +791,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   background-color: var(--additional-background-color);
   color: var(--main-black);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -1136,18 +1141,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
   max-width: 200px;
   max-height: 50px;
-  border: none;
   border-radius: 6px;
-
-  background-color: var(--highlight-color);
-  color: var(--white-color);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-
-  cursor: pointer;
 
   transition: box-shadow var(--transition-origin);
 }
