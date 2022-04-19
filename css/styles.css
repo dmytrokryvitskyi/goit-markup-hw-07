@@ -247,7 +247,7 @@ img {
   margin-bottom: 30px;
 } */
 
-.hero__button {
+/* .hero__button {
   display: inline-block;
   text-align: center;
 
@@ -265,7 +265,7 @@ img {
 .hero__button:focus {
   background-color: var(--white-color);
   color: var(--highlight-color);
-}
+} */
 
 /*Загальна Стилізація інших секцій */
 
@@ -276,7 +276,7 @@ img {
 
 /*Стилізвція Секції Наши преимущества*/
 
-.advantages__title {
+/* .advantages__title {
   color: var(--main-black);
   font-weight: 700;
   font-size: 36px;
@@ -333,11 +333,11 @@ margin-right: 30px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 
 /*Стилізвція Секції Чем мы занимаемся*/
 
-.activity {
+/* .activity {
   padding-top: 0px;
 }
 
@@ -387,10 +387,10 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
-}
+} */
 /*Стилізвція Секції Наша команда*/
 
-.team {
+/* .team {
   background-color: var(--additional-background-color);
 }
 
@@ -448,10 +448,10 @@ margin-right: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /*Стилізвція SOCIALS (Instagram. Twitter, etc.)*/
-
+/* 
 .socials{
   display: flex;
   align-items: center;
@@ -501,7 +501,7 @@ margin-right: 10px;
 .socials__link:hover .socials__icon,
 .socials__link:focus .socials__icon {
   fill: var(--white-color);
-}
+} */
 
 /*Стилізвція Постоянные клиенты */
 
