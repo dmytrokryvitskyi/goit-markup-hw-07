@@ -8,9 +8,13 @@ h1,
 h2,
 h3,
 h4,
-p {
+h5,
+h6,
+p,
+ul {
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 img {
@@ -19,9 +23,7 @@ img {
     height: auto;
 }
 
-.list {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-

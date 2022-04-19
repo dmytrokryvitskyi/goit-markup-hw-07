@@ -20,24 +20,22 @@ h1,
 h2,
 h3,
 h4,
-p {
+h5,
+h6,
+p,
+ul {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 0px;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
-} 
+}  */
 
-.list {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-} */
-
-.non-visiable {
+/* .non-visiable {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -48,15 +46,15 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /*Стилізвція ХЕДЕРА*/
 
@@ -95,6 +93,7 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
+  list-style: none;
 }
 
 .site-nav__item {
@@ -151,6 +150,7 @@ img {
   display: flex;
   align-items: center;
   margin-left: auto;
+  list-style: none;
 }
 
 .site-contact__item{
@@ -251,10 +251,10 @@ img {
 
 /*Загальна Стилізація інших секцій */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /*Стилізвція Секції Наши преимущества*/
 
@@ -272,6 +272,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  list-style: none;
 }
 
 .advantages__item {
@@ -334,6 +336,8 @@ margin-right: 30px;
 .activity__list {
   display: flex;
   align-items: center;
+
+  list-style: none;
 }
 
 .activity__item {
@@ -385,6 +389,8 @@ margin-right: 30px;
 .team__list {
   display: flex;
   align-items: center;
+
+  list-style: none;
 }
 
 .team__item {
@@ -433,6 +439,8 @@ margin-right: 30px;
   align-items: center;
   justify-content: center;
   margin-top: 16px;
+
+  list-style: none;
 }
 
 .socials__item {
@@ -495,7 +503,9 @@ margin-right: 10px;
   align-items: center;
   justify-content: center;
   
-  }
+  list-style: none;
+}
+
 .clients__item{
   margin-right: 30px;
 }
@@ -575,6 +585,10 @@ margin-right: 10px;
 
 /* АДРЕСА І КОНТАКТИ */
 
+.footer__list{
+  list-style: none;
+}
+
 .footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -623,6 +637,8 @@ margin-right: 10px;
 
 .footer-join__list{
   display: flex;
+
+  list-style: none;
 }
 
 .footer-join__item:not(:last-child) {
@@ -750,6 +766,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+
+  list-style: none;
 }
 
 .button-item {
@@ -792,6 +810,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .portfolio__list {
   display: flex;
   flex-wrap: wrap;
+
+  list-style: none;
 }
 
 .portfolio__item {
