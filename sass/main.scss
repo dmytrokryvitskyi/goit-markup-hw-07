@@ -4,9 +4,25 @@
 // Non-Visiable
 @import "./utils/non-visiable";
 
+// Current
+@import "./utils/current";
+
 // ЗАГАЛЬНА СТИЛІЗАЦІЯ СТОРІНКИ
 @import "./components/base/base";
 
 // КОМПОНЕНТА
 @import "./components/components";
+
+// HEADER
+@import "./components/header/header-general";
+@import "./components/header/header-logo";
+@import "./components/header/header-navigation";
+@import "./components/header/header-contacts";
+
+// HERO
+@import "./components/hero/hero-general";
+@import "./components/hero/hero-title";
+
+
+
 

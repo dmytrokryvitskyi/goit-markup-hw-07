@@ -77,7 +77,7 @@ img {
 
 /*Стилізвція ХЕДЕРА*/
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -89,10 +89,11 @@ img {
 .header__nav {
   display: flex;
   align-items: center;
-}
+} */
+
 
 /*Стилізвція лого*/
-.logo {
+/* .logo {
   color: var(--main-black);
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -106,10 +107,11 @@ img {
 
 .logo__text {
   color: var(--highlight-color);
-}
+} */
 
 /*Стилізвція навігації*/
-.site-nav {
+
+/* .site-nav {
   display: flex;
   align-items: center;
   list-style: none;
@@ -141,11 +143,11 @@ img {
 .site-nav__link:hover,
 .site-nav__link:focus {
   color: var(--highlight-color);
-}
+} */
 
 /* ПІДСВІТКА АКТИВНОЇ СТОРІНКИ */
 
-.--current{
+/* .--current{
     color: var(--highlight-color);
 }
 
@@ -161,11 +163,11 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: var(--highlight-color);
-
-}
+} */
 
 /*Стилізвція контактів в хедері (пошта, тел)*/
-.site-contact {
+
+/* .site-contact {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -210,11 +212,13 @@ img {
 .site-contact__link:hover,
 .site-contact__link:focus {
   color: var(--highlight-color);
-}
+} */
+
 /*Стилізвція основної частини (Секцій)*/
 
 /*Стилізвція Герой */
-.hero {
+
+/* .hero {
   background-color: #2f303a;
   text-align: center;
   padding-top: 200px;
@@ -228,9 +232,9 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
-.hero__title {
+/* .hero__title {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -241,7 +245,7 @@ img {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
-}
+} */
 
 .hero__button {
   display: inline-block;
